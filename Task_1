@@ -1,0 +1,20 @@
+package com.gmail.malofienko;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		int a = 12345;
+		int path1 = a / 10000;
+		int path2 = a % 10000 / 1000;
+		int path3 = a % 1000 / 100;
+		int path4 = a % 100 / 10;
+		int path5 = a % 10;
+		System.out.println(path1);
+		System.out.println(path2);
+		System.out.println(path3);
+		System.out.println(path4);
+
+	}
+
+}
